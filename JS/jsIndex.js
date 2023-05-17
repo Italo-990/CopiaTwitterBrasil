@@ -19,4 +19,3 @@ inputSearch.addEventListener('focusout',function(){
     spanInputSearch.classList.remove('inputFocusSpan')
 })
 
-window.location.href = accountPublicInf[0].href
