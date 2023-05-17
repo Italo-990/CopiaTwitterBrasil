@@ -19,4 +19,4 @@ inputSearch.addEventListener('focusout',function(){
     spanInputSearch.classList.remove('inputFocusSpan')
 })
 
-winwow.location = "./index.html"
+window.location.href = accountPublicInf[0].href
