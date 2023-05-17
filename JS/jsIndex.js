@@ -18,3 +18,5 @@ inputSearch.addEventListener('focusout',function(){
     inputSearch.classList.remove('inputFocus')
     spanInputSearch.classList.remove('inputFocusSpan')
 })
+
+winwow.location = "./index.html"
