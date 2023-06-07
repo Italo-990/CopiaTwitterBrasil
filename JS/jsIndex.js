@@ -2,6 +2,7 @@ const accountPublicInf = document.querySelectorAll('.accountPublicInf')
 const svgInput = document.querySelector('.svgInput')
 const inputSearch = document.querySelector('.inputSearch')
 const spanInputSearch = document.querySelector('.spanInputSearch')
+accountPublicInf[0].classList.add('linkActive');
 for(let i = 0; i < accountPublicInf.length; i++){
     if(accountPublicInf[i].href == window.location.href){
         accountPublicInf[i].classList.add('linkActive')
