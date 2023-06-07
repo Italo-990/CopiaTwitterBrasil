@@ -5,6 +5,9 @@ const spanInputSearch = document.querySelector('.spanInputSearch')
 accountPublicInf[0].classList.add('linkActive');
 for(let i = 0; i < accountPublicInf.length; i++){
     if(accountPublicInf[i].href == window.location.href){
+        if(accountPublicInf[0].classList.contains('linkActive'){
+               accountPublicInf[0].classList.remove('linkActive')
+           }
         accountPublicInf[i].classList.add('linkActive')
     }
 
